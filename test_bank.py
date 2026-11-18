@@ -1,4 +1,4 @@
-from bank import banloper
+from bank import bankOper
 
 def test_deposit():
     totalBalance,updatedBalance=bankOper(200000,30000,0)
