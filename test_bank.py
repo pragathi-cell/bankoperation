@@ -1,7 +1,7 @@
 from bank import bankOper
 
 def test_deposit():
-    totalBalance,updatedBalance=bankOper(200000,30000,0)
+    totalBalance,updatedBalance = bankOper(200000,30000,0)
 
     assert totalBalance == 230000
     assert updatedBalance == 230000
